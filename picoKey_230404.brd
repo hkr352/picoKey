@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.5" unitdist="mm" unit="mm" style="dots" multiple="2" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="11" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="7" fill="1" visible="no" active="no"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="no"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="no"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="no"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="no"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="no"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="no"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="no"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="no"/>
+<layer number="110" name="110" color="7" fill="1" visible="no" active="no"/>
+<layer number="111" name="111" color="7" fill="1" visible="no" active="no"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="no"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="no"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="129" name="top_silk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="no" active="yes"/>
+<layer number="138" name="EEE" color="7" fill="1" visible="no" active="yes"/>
+<layer number="139" name="_tKeepout" color="7" fill="1" visible="no" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="yes"/>
+<layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="no" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="yes"/>
+<layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="DrillLegend" color="7" fill="1" visible="no" active="no"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="no" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="yes"/>
+<layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="no" active="yes"/>
+<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="14" fill="1" visible="no" active="no"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="156" name="gesam-Maß" color="7" fill="1" visible="no" active="yes"/>
+<layer number="157" name="FaceMchng" color="7" fill="1" visible="no" active="yes"/>
+<layer number="158" name="FaceMMeas" color="7" fill="1" visible="no" active="yes"/>
+<layer number="159" name="Geh-Bear2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="160" name="Topologie" color="7" fill="1" visible="no" active="yes"/>
+<layer number="161" name="tomplace2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="no" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="no" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="no" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="no"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+<layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
+<layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="no"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="no"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="no"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="no"/>
+<layer number="207" name="207bmp" color="15" fill="10" visible="no" active="no"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="no"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="252" name="BR-BS" color="7" fill="1" visible="no" active="yes"/>
+<layer number="253" name="Extra" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="OrgLBR" color="13" fill="1" visible="no" active="no"/>
+<layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
+</layers>
+<board>
+<plain>
+<wire x1="0" y1="0" x2="77" y2="0" width="0" layer="20"/>
+<wire x1="77" y1="0" x2="77" y2="130" width="0" layer="20"/>
+<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
+<dimension x1="0" y1="0" x2="77" y2="0" x3="38.5" y3="-26.7" textsize="6.4516" textratio="18" layer="21" width="0.05" precision="4"/>
+<dimension x1="0" y1="100" x2="0" y2="0" x3="-29.6" y3="50" textsize="6.4516" textratio="18" layer="21" width="0.05" precision="4"/>
+<wire x1="0" y1="100" x2="0" y2="130" width="0.1524" layer="20"/>
+<wire x1="0" y1="130" x2="77" y2="130" width="0.1524" layer="20"/>
+<dimension x1="0" y1="100" x2="0" y2="130" x3="-30" y3="115" textsize="6.4516" textratio="18" layer="21" width="0.05" precision="4"/>
+<text x="1.2" y="126.6" size="1.4224" layer="21" ratio="18">※キーピッチが19mm</text>
+</plain>
+<libraries>
+<library name="SamacSys_Parts">
+<description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SODFL2512X90N">
+<description>&lt;b&gt;SOD-323FL&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.15" y="0" dx="0.82" dy="0.42" layer="1"/>
+<smd name="2" x="1.15" y="0" dx="0.82" dy="0.42" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.71" y1="0.825" x2="1.71" y2="0.825" width="0.05" layer="51"/>
+<wire x1="1.71" y1="0.825" x2="1.71" y2="-0.825" width="0.05" layer="51"/>
+<wire x1="1.71" y1="-0.825" x2="-1.71" y2="-0.825" width="0.05" layer="51"/>
+<wire x1="-1.71" y1="-0.825" x2="-1.71" y2="0.825" width="0.05" layer="51"/>
+<wire x1="-0.85" y1="0.625" x2="0.85" y2="0.625" width="0.1" layer="51"/>
+<wire x1="0.85" y1="0.625" x2="0.85" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="0.85" y1="-0.625" x2="-0.85" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="-0.85" y1="-0.625" x2="-0.85" y2="0.625" width="0.1" layer="51"/>
+<wire x1="-0.85" y1="0.215" x2="-0.44" y2="0.625" width="0.1" layer="51"/>
+<wire x1="-1.56" y1="0.625" x2="0.85" y2="0.625" width="0.2" layer="21"/>
+<wire x1="-0.85" y1="-0.625" x2="0.85" y2="-0.625" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="picoKey">
+<description>Generated from &lt;b&gt;picoKey_2304.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="RASPBERRYPI_PICO_RPI_PICO_TH">
+<wire x1="-10.5" y1="25.5" x2="-4" y2="25.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="25.5" x2="3.9" y2="25.5" width="0.127" layer="21"/>
+<wire x1="3.9" y1="25.5" x2="10.5" y2="25.5" width="0.127" layer="21"/>
+<wire x1="10.5" y1="25.5" x2="10.5" y2="-25.5" width="0.127" layer="21"/>
+<wire x1="10.5" y1="-25.5" x2="-10.5" y2="-25.5" width="0.127" layer="21"/>
+<wire x1="-10.5" y1="-25.5" x2="-10.5" y2="25.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="25.5" x2="-4" y2="27" width="0.127" layer="21"/>
+<wire x1="-4" y1="27" x2="4" y2="27" width="0.127" layer="21"/>
+<wire x1="4" y1="27" x2="3.9" y2="25.5" width="0.127" layer="21"/>
+<wire x1="-4" y1="25.5" x2="-4" y2="21" width="0.127" layer="21"/>
+<wire x1="-4" y1="21" x2="4" y2="21" width="0.127" layer="21"/>
+<wire x1="4" y1="21" x2="3.9" y2="25.5" width="0.127" layer="21"/>
+<pad name="3V3" x="8.89" y="13.97" drill="1.1" diameter="1.6" shape="offset"/>
+<pad name="3V3_EN" x="8.89" y="16.51" drill="1.1" diameter="1.6" shape="offset"/>
+<pad name="ADC_VREF" x="8.89" y="11.43" drill="1.1" diameter="1.6" shape="offset"/>
+<pad name="AGND" x="8.89" y="6.35" drill="1.1" diameter="1.6" shape="offset"/>
+<pad name="GND@1" x="-8.89" y="19.05" drill="1.1" diameter="1.6" shape="offset" rot="R180"/>
+<pad name="GND@2" x="-8.89" y="6.35" drill="1.1" diameter="1.6" shape="offset" rot="R180"/>
+<pad name="GND@3" x="-8.89" y="-6.35" drill="1.1" diameter="1.6" shape="offset" rot="R180"/>
+<pad name="GND@4" x="-8.89" y="-19.05" drill="1.1" diameter="1.6" shape="offset" rot="R180"/>
+<pad name="GND@5" x="0" y="-23.9" drill="1.1" diameter="1.6" shape="offset" rot="R270"/>
+<pad name="GND@6" x="8.89" y="-19.05" drill="1.1" diameter="1.6" shape="offset"/>
+<pad name="GND@7" x="8.89" y="-6.35" drill="1.1" diameter="1.6" shape="offset"/>
+<pad name="GND@8" x="8.89" y="19.05" drill="1.1" diameter="1.6" shape="offset"/>
+<pad name="GP0" x="-8.89" y="24.13" drill="1.1" diameter="1.6" shape="offset" rot="R180"/>
+<pad name="GP1" x="-8.89" y="21.59" drill="1.1" diameter="1.6" shape="offset" rot="R180"/>
+<pad name="GP2" x="-8.89" y="16.51" drill="1.1" diameter="1.6" shape="offset" rot="R180"/>
+<pad name="GP3" x="-8.89" y="13.97" drill="1.1" diameter="1.6" shape="offset" rot="R180"/>
+<pad name="GP4" x="-8.89" y="11.43" drill="1.1" diameter="1.6" shape="offset" rot="R180"/>
+<pad name="GP5" x="-8.89" y="8.89" drill="1.1" diameter="1.6" shape="offset" rot="R180"/>
+<pad name="GP6" x="-8.89" y="3.81" drill="1.1" diameter="1.6" shape="offset" rot="R180"/>
+<pad name="GP7" x="-8.89" y="1.27" drill="1.1" diameter="1.6" shape="offset" rot="R180"/>
+<pad name="GP8" x="-8.89" y="-1.27" drill="1.1" diameter="1.6" shape="offset" rot="R180"/>
+<pad name="GP9" x="-8.89" y="-3.81" drill="1.1" diameter="1.6" shape="offset" rot="R180"/>
+<pad name="GP10" x="-8.89" y="-8.89" drill="1.1" diameter="1.6" shape="offset" rot="R180"/>
+<pad name="GP11" x="-8.89" y="-11.43" drill="1.1" diameter="1.6" shape="offset" rot="R180"/>
+<pad name="GP12" x="-8.89" y="-13.97" drill="1.1" diameter="1.6" shape="offset" rot="R180"/>
+<pad name="GP13" x="-8.89" y="-16.51" drill="1.1" diameter="1.6" shape="offset" rot="R180"/>
+<pad name="GP14" x="-8.89" y="-21.59" drill="1.1" diameter="1.6" shape="offset" rot="R180"/>
+<pad name="GP15" x="-8.89" y="-24.13" drill="1.1" diameter="1.6" shape="offset" rot="R180"/>
+<pad name="GP16" x="8.89" y="-24.13" drill="1.1" diameter="1.6" shape="offset"/>
+<pad name="GP17" x="8.89" y="-21.59" drill="1.1" diameter="1.6" shape="offset"/>
+<pad name="GP18" x="8.89" y="-16.51" drill="1.1" diameter="1.6" shape="offset"/>
+<pad name="GP19" x="8.89" y="-13.97" drill="1.1" diameter="1.6" shape="offset"/>
+<pad name="GP20" x="8.89" y="-11.43" drill="1.1" diameter="1.6" shape="offset"/>
+<pad name="GP21" x="8.89" y="-8.89" drill="1.1" diameter="1.6" shape="offset"/>
+<pad name="GP22" x="8.89" y="-3.81" drill="1.1" diameter="1.6" shape="offset"/>
+<pad name="GP26_A0" x="8.89" y="1.27" drill="1.1" diameter="1.6" shape="offset"/>
+<pad name="GP27_A1" x="8.89" y="3.81" drill="1.1" diameter="1.6" shape="offset"/>
+<pad name="GP28_A2" x="8.89" y="8.89" drill="1.1" diameter="1.6" shape="offset"/>
+<pad name="RUN" x="8.89" y="-1.27" drill="1.1" diameter="1.6" shape="offset"/>
+<pad name="SWCLK" x="-2.54" y="-23.9" drill="1.1" diameter="1.6" shape="offset" rot="R270"/>
+<pad name="SWDIO" x="2.54" y="-23.9" drill="1.1" diameter="1.6" shape="offset" rot="R270"/>
+<pad name="VBUS" x="8.89" y="24.13" drill="1.1" diameter="1.6" shape="offset"/>
+<pad name="VSYS" x="8.89" y="21.59" drill="1.1" diameter="1.6" shape="offset"/>
+<pad name="TH1" x="-5.7" y="-23.5" drill="2.1"/>
+<pad name="TH2" x="5.7" y="-23.5" drill="2.1"/>
+<hole x="-5.7" y="23.5" drill="2.1"/>
+<hole x="5.7" y="23.5" drill="2.1"/>
+</package>
+<package name="CPG135001D02">
+<description>&lt;b&gt;CPG135001D02-2&lt;/b&gt;&lt;br&gt;</description>
+<wire x1="-7.5" y1="-1.6" x2="-7.5" y2="13.4" width="0.2" layer="51"/>
+<wire x1="-7.5" y1="13.4" x2="7.5" y2="13.4" width="0.2" layer="51"/>
+<wire x1="7.5" y1="13.4" x2="7.5" y2="-1.6" width="0.2" layer="51"/>
+<wire x1="7.5" y1="-1.6" x2="-7.5" y2="-1.6" width="0.2" layer="51"/>
+<wire x1="-7.5" y1="-1.6" x2="-7.5" y2="13.4" width="0.1" layer="21"/>
+<wire x1="-7.5" y1="13.4" x2="7.5" y2="13.4" width="0.1" layer="21"/>
+<wire x1="7.5" y1="13.4" x2="7.5" y2="-1.6" width="0.1" layer="21"/>
+<wire x1="7.5" y1="-1.6" x2="-7.5" y2="-1.6" width="0.1" layer="21"/>
+<wire x1="-8" y1="-2.8" x2="-8" y2="13.9" width="0.1" layer="51"/>
+<wire x1="-8" y1="13.9" x2="8" y2="13.9" width="0.1" layer="51"/>
+<wire x1="8" y1="13.9" x2="8" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="8" y1="-2.8" x2="-8" y2="-2.8" width="0.1" layer="51"/>
+<wire x1="-0.1" y1="-2.2" x2="0.1" y2="-2.2" width="0.2" layer="21" curve="-180"/>
+<wire x1="0.1" y1="-2.2" x2="-0.1" y2="-2.2" width="0.2" layer="21" curve="-180"/>
+<pad name="1" x="0" y="0" drill="1.3" diameter="1.95" rot="R270"/>
+<pad name="2" x="5" y="2.1" drill="1.3" diameter="1.95" rot="R270"/>
+<pad name="MH2" x="-5.5" y="5.9" drill="2" diameter="3" rot="R270"/>
+<pad name="MH3" x="5.5" y="5.9" drill="2" diameter="3" rot="R270"/>
+<text x="-7.05" y="14" size="1" layer="25" font="vector" ratio="11">&gt;NAME</text>
+<text x="0" y="10" size="1.27" layer="27" rot="R180" align="center">&gt;VALUE</text>
+<hole x="0" y="5.9" drill="3.5"/>
+<dimension x1="0" y1="0" x2="0" y2="5.9" x3="-1.5" y3="2.95" textsize="0.3048" textratio="10" layer="21" dtype="diameter" width="0.05"/>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="Elecrow_2-layer_PCB_eagle_rule">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<description language="zh">&lt;b&gt;Elecrow PCB EAGLE Design Rules&lt;/b&gt;
+</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.6mm 1.2mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="8mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="12mil"/>
+<param name="mdPadVia" value="8mil"/>
+<param name="mdViaVia" value="12mil"/>
+<param name="mdSmdPad" value="0mil"/>
+<param name="mdSmdVia" value="0mil"/>
+<param name="mdSmdSmd" value="0mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="20mil"/>
+<param name="mdDrill" value="10mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="12mil"/>
+<param name="msMicroVia" value="12mil"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="6mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="6mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="6mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="6mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="6mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="0"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="0mil"/>
+<param name="mlMaxStopFrame" value="0mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="100mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="0"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="X1" library="picoKey" package="RASPBERRYPI_PICO_RPI_PICO_TH" value="" x="27" y="106" smashed="yes" rot="R90"/>
+<element name="S1" library="picoKey" package="CPG135001D02" value="CPG135001D02" x="10" y="4" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="10" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="10" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="DESCRIPTION" value="Through Hole Tactile Switches RoHS" x="10" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="10" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kailh" x="10" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPG135001D02" x="10" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="10" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="10" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="NAME" x="2.95" y="18" size="1" layer="25" font="vector" ratio="11"/>
+<attribute name="VALUE" x="10" y="14" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="S2" library="picoKey" package="CPG135001D02" value="CPG135001D02" x="29" y="4" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="29" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="29" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="DESCRIPTION" value="Through Hole Tactile Switches RoHS" x="29" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="29" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kailh" x="29" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPG135001D02" x="29" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="29" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="29" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="NAME" x="21.95" y="18" size="1" layer="25" font="vector" ratio="11"/>
+<attribute name="VALUE" x="29" y="14" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="S3" library="picoKey" package="CPG135001D02" value="CPG135001D02" x="48" y="4" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="48" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="48" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="DESCRIPTION" value="Through Hole Tactile Switches RoHS" x="48" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="48" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kailh" x="48" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPG135001D02" x="48" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="48" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="48" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="NAME" x="40.95" y="18" size="1" layer="25" font="vector" ratio="11"/>
+<attribute name="VALUE" x="48" y="14" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="S4" library="picoKey" package="CPG135001D02" value="CPG135001D02" x="67" y="4" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="67" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="67" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="DESCRIPTION" value="Through Hole Tactile Switches RoHS" x="67" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="67" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kailh" x="67" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPG135001D02" x="67" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="67" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="67" y="4" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="NAME" x="59.95" y="18" size="1" layer="25" font="vector" ratio="11"/>
+<attribute name="VALUE" x="67" y="14" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="S5" library="picoKey" package="CPG135001D02" value="CPG135001D02" x="10" y="23" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="10" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="10" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="DESCRIPTION" value="Through Hole Tactile Switches RoHS" x="10" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="10" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kailh" x="10" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPG135001D02" x="10" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="10" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="10" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="NAME" x="2.95" y="37" size="1" layer="25" font="vector" ratio="11"/>
+<attribute name="VALUE" x="10" y="33" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="S6" library="picoKey" package="CPG135001D02" value="CPG135001D02" x="29" y="23" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="29" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="29" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="DESCRIPTION" value="Through Hole Tactile Switches RoHS" x="29" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="29" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kailh" x="29" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPG135001D02" x="29" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="29" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="29" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="NAME" x="21.95" y="37" size="1" layer="25" font="vector" ratio="11"/>
+<attribute name="VALUE" x="29" y="33" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="S7" library="picoKey" package="CPG135001D02" value="CPG135001D02" x="48" y="23" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="48" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="48" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="DESCRIPTION" value="Through Hole Tactile Switches RoHS" x="48" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="48" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kailh" x="48" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPG135001D02" x="48" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="48" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="48" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="NAME" x="40.95" y="37" size="1" layer="25" font="vector" ratio="11"/>
+<attribute name="VALUE" x="48" y="33" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="S8" library="picoKey" package="CPG135001D02" value="CPG135001D02" x="67" y="23" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="67" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="67" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="DESCRIPTION" value="Through Hole Tactile Switches RoHS" x="67" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="67" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kailh" x="67" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPG135001D02" x="67" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="67" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="67" y="23" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="NAME" x="59.95" y="37" size="1" layer="25" font="vector" ratio="11"/>
+<attribute name="VALUE" x="67" y="33" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="S9" library="picoKey" package="CPG135001D02" value="CPG135001D02" x="10" y="42" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="10" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="10" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="DESCRIPTION" value="Through Hole Tactile Switches RoHS" x="10" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="10" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kailh" x="10" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPG135001D02" x="10" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="10" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="10" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="NAME" x="2.95" y="56" size="1" layer="25" font="vector" ratio="11"/>
+<attribute name="VALUE" x="10" y="52" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="S10" library="picoKey" package="CPG135001D02" value="CPG135001D02" x="29" y="42" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="29" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="29" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="DESCRIPTION" value="Through Hole Tactile Switches RoHS" x="29" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="29" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kailh" x="29" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPG135001D02" x="29" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="29" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="29" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="NAME" x="21.95" y="56" size="1" layer="25" font="vector" ratio="11"/>
+<attribute name="VALUE" x="29" y="52" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="S11" library="picoKey" package="CPG135001D02" value="CPG135001D02" x="48" y="42" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="48" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="48" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="DESCRIPTION" value="Through Hole Tactile Switches RoHS" x="48" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="48" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kailh" x="48" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPG135001D02" x="48" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="48" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="48" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="NAME" x="40.95" y="56" size="1" layer="25" font="vector" ratio="11"/>
+<attribute name="VALUE" x="48" y="52" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="S12" library="picoKey" package="CPG135001D02" value="CPG135001D02" x="67" y="42" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="67" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="67" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="DESCRIPTION" value="Through Hole Tactile Switches RoHS" x="67" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="67" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kailh" x="67" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPG135001D02" x="67" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="67" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="67" y="42" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="NAME" x="59.95" y="56" size="1" layer="25" font="vector" ratio="11"/>
+<attribute name="VALUE" x="67" y="52" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="S13" library="picoKey" package="CPG135001D02" value="CPG135001D02" x="10" y="61" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="10" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="10" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="DESCRIPTION" value="Through Hole Tactile Switches RoHS" x="10" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="10" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kailh" x="10" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPG135001D02" x="10" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="10" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="10" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="NAME" x="2.95" y="75" size="1" layer="25" font="vector" ratio="11"/>
+<attribute name="VALUE" x="10" y="71" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="S14" library="picoKey" package="CPG135001D02" value="CPG135001D02" x="29" y="61" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="29" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="29" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="DESCRIPTION" value="Through Hole Tactile Switches RoHS" x="29" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="29" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kailh" x="29" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPG135001D02" x="29" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="29" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="29" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="NAME" x="21.95" y="75" size="1" layer="25" font="vector" ratio="11"/>
+<attribute name="VALUE" x="29" y="71" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="S15" library="picoKey" package="CPG135001D02" value="CPG135001D02" x="48" y="61" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="48" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="48" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="DESCRIPTION" value="Through Hole Tactile Switches RoHS" x="48" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="48" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kailh" x="48" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPG135001D02" x="48" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="48" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="48" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="NAME" x="40.95" y="75" size="1" layer="25" font="vector" ratio="11"/>
+<attribute name="VALUE" x="48" y="71" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="S16" library="picoKey" package="CPG135001D02" value="CPG135001D02" x="67" y="61" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="67" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="67" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="DESCRIPTION" value="Through Hole Tactile Switches RoHS" x="67" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="67" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kailh" x="67" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPG135001D02" x="67" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="67" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="67" y="61" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="NAME" x="59.95" y="75" size="1" layer="25" font="vector" ratio="11"/>
+<attribute name="VALUE" x="67" y="71" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="S17" library="picoKey" package="CPG135001D02" value="CPG135001D02" x="10" y="80" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="10" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="10" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="DESCRIPTION" value="Through Hole Tactile Switches RoHS" x="10" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="10" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kailh" x="10" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPG135001D02" x="10" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="10" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="10" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="NAME" x="2.95" y="94" size="1" layer="25" font="vector" ratio="11"/>
+<attribute name="VALUE" x="10" y="90" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="S18" library="picoKey" package="CPG135001D02" value="CPG135001D02" x="29" y="80" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="29" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="29" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="DESCRIPTION" value="Through Hole Tactile Switches RoHS" x="29" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="29" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kailh" x="29" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPG135001D02" x="29" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="29" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="29" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="NAME" x="21.95" y="94" size="1" layer="25" font="vector" ratio="11"/>
+<attribute name="VALUE" x="29" y="90" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="S19" library="picoKey" package="CPG135001D02" value="CPG135001D02" x="48" y="80" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="48" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="48" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="DESCRIPTION" value="Through Hole Tactile Switches RoHS" x="48" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="48" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kailh" x="48" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPG135001D02" x="48" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="48" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="48" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="NAME" x="40.95" y="94" size="1" layer="25" font="vector" ratio="11"/>
+<attribute name="VALUE" x="48" y="90" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="S20" library="picoKey" package="CPG135001D02" value="CPG135001D02" x="67" y="80" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="" x="67" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="67" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="DESCRIPTION" value="Through Hole Tactile Switches RoHS" x="67" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="HEIGHT" value="8mm" x="67" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kailh" x="67" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CPG135001D02" x="67" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="67" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="67" y="80" size="1" layer="27" font="vector" ratio="18" display="off"/>
+<attribute name="NAME" x="59.95" y="94" size="1" layer="25" font="vector" ratio="11"/>
+<attribute name="VALUE" x="67" y="90" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="D1" library="SamacSys_Parts" package="SODFL2512X90N" value="1N4148WS" x="18.5" y="5" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="1N4148WS" x="18.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1n4148ws/on-semiconductor?region=europe" x="18.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS" x="18.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="18.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="18.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4148WS" x="18.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="18.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D" x="18.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="NAME" x="18.5" y="5" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="18.5" y="5" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="D2" library="SamacSys_Parts" package="SODFL2512X90N" value="1N4148WS" x="37.5" y="5" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="1N4148WS" x="37.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1n4148ws/on-semiconductor?region=europe" x="37.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS" x="37.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="37.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="37.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4148WS" x="37.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="37.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D" x="37.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="NAME" x="37.5" y="5" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="37.5" y="5" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="D3" library="SamacSys_Parts" package="SODFL2512X90N" value="1N4148WS" x="56.5" y="5" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="1N4148WS" x="56.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1n4148ws/on-semiconductor?region=europe" x="56.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS" x="56.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="56.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="56.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4148WS" x="56.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="56.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D" x="56.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="NAME" x="56.5" y="5" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="56.5" y="5" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="D4" library="SamacSys_Parts" package="SODFL2512X90N" value="1N4148WS" x="75.5" y="5" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="1N4148WS" x="75.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1n4148ws/on-semiconductor?region=europe" x="75.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS" x="75.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="75.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="75.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4148WS" x="75.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="75.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D" x="75.5" y="5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="NAME" x="75.5" y="5" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="75.5" y="5" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="D5" library="SamacSys_Parts" package="SODFL2512X90N" value="1N4148WS" x="18.5" y="23.5" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="1N4148WS" x="18.5" y="22.5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1n4148ws/on-semiconductor?region=europe" x="18.5" y="22.5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS" x="18.5" y="22.5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="18.5" y="22.5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="18.5" y="22.5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4148WS" x="18.5" y="22.5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="18.5" y="22.5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D" x="18.5" y="22.5" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="NAME" x="18.5" y="23.5" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="18.5" y="23.5" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="D6" library="SamacSys_Parts" package="SODFL2512X90N" value="1N4148WS" x="37.5" y="24" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="1N4148WS" x="37.5" y="22" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1n4148ws/on-semiconductor?region=europe" x="37.5" y="22" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS" x="37.5" y="22" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="37.5" y="22" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="37.5" y="22" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4148WS" x="37.5" y="22" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="37.5" y="22" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D" x="37.5" y="22" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="NAME" x="37.5" y="24" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="37.5" y="24" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="D7" library="SamacSys_Parts" package="SODFL2512X90N" value="1N4148WS" x="56.5" y="24" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="1N4148WS" x="56.5" y="21" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1n4148ws/on-semiconductor?region=europe" x="56.5" y="21" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS" x="56.5" y="21" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="56.5" y="21" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="56.5" y="21" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4148WS" x="56.5" y="21" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="56.5" y="21" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D" x="56.5" y="21" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="NAME" x="56.5" y="24" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="56.5" y="24" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="D8" library="SamacSys_Parts" package="SODFL2512X90N" value="1N4148WS" x="75.5" y="24" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="1N4148WS" x="75.5" y="20" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1n4148ws/on-semiconductor?region=europe" x="75.5" y="20" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS" x="75.5" y="20" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="75.5" y="20" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="75.5" y="20" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4148WS" x="75.5" y="20" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="75.5" y="20" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D" x="75.5" y="20" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="NAME" x="75.5" y="24" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="75.5" y="24" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="D9" library="SamacSys_Parts" package="SODFL2512X90N" value="1N4148WS" x="18.5" y="43" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="1N4148WS" x="18.5" y="42" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1n4148ws/on-semiconductor?region=europe" x="18.5" y="42" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS" x="18.5" y="42" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="18.5" y="42" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="18.5" y="42" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4148WS" x="18.5" y="42" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="18.5" y="42" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D" x="18.5" y="42" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="NAME" x="18.5" y="43" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="18.5" y="43" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="D10" library="SamacSys_Parts" package="SODFL2512X90N" value="1N4148WS" x="37.5" y="43" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="1N4148WS" x="37.5" y="41" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1n4148ws/on-semiconductor?region=europe" x="37.5" y="41" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS" x="37.5" y="41" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="37.5" y="41" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="37.5" y="41" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4148WS" x="37.5" y="41" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="37.5" y="41" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D" x="37.5" y="41" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="NAME" x="37.5" y="43" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="37.5" y="43" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="D11" library="SamacSys_Parts" package="SODFL2512X90N" value="1N4148WS" x="56.5" y="43" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="1N4148WS" x="56.5" y="40" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1n4148ws/on-semiconductor?region=europe" x="56.5" y="40" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS" x="56.5" y="40" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="56.5" y="40" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="56.5" y="40" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4148WS" x="56.5" y="40" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="56.5" y="40" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D" x="56.5" y="40" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="NAME" x="56.5" y="43" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="56.5" y="43" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="D12" library="SamacSys_Parts" package="SODFL2512X90N" value="1N4148WS" x="75.5" y="43" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="1N4148WS" x="75.5" y="39" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1n4148ws/on-semiconductor?region=europe" x="75.5" y="39" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS" x="75.5" y="39" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="75.5" y="39" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="75.5" y="39" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4148WS" x="75.5" y="39" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="75.5" y="39" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D" x="75.5" y="39" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="NAME" x="75.5" y="43" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="75.5" y="43" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="D13" library="SamacSys_Parts" package="SODFL2512X90N" value="1N4148WS" x="18.5" y="62" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="1N4148WS" x="18.5" y="61" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1n4148ws/on-semiconductor?region=europe" x="18.5" y="61" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS" x="18.5" y="61" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="18.5" y="61" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="18.5" y="61" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4148WS" x="18.5" y="61" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="18.5" y="61" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D" x="18.5" y="61" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="NAME" x="18.5" y="62" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="18.5" y="62" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="D14" library="SamacSys_Parts" package="SODFL2512X90N" value="1N4148WS" x="37.5" y="62" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="1N4148WS" x="37.5" y="60" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1n4148ws/on-semiconductor?region=europe" x="37.5" y="60" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS" x="37.5" y="60" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="37.5" y="60" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="37.5" y="60" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4148WS" x="37.5" y="60" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="37.5" y="60" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D" x="37.5" y="60" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="NAME" x="37.5" y="62" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="37.5" y="62" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="D15" library="SamacSys_Parts" package="SODFL2512X90N" value="1N4148WS" x="56.5" y="62" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="1N4148WS" x="56.5" y="59" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1n4148ws/on-semiconductor?region=europe" x="56.5" y="59" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS" x="56.5" y="59" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="56.5" y="59" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="56.5" y="59" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4148WS" x="56.5" y="59" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="56.5" y="59" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D" x="56.5" y="59" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="NAME" x="56.5" y="62" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="56.5" y="62" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="D16" library="SamacSys_Parts" package="SODFL2512X90N" value="1N4148WS" x="75.5" y="62" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="1N4148WS" x="75.5" y="58" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1n4148ws/on-semiconductor?region=europe" x="75.5" y="58" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS" x="75.5" y="58" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="75.5" y="58" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="75.5" y="58" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4148WS" x="75.5" y="58" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="75.5" y="58" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D" x="75.5" y="58" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="NAME" x="75.5" y="62" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="75.5" y="62" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="D17" library="SamacSys_Parts" package="SODFL2512X90N" value="1N4148WS" x="18.5" y="81" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="1N4148WS" x="18.5" y="80" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1n4148ws/on-semiconductor?region=europe" x="18.5" y="80" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS" x="18.5" y="80" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="18.5" y="80" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="18.5" y="80" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4148WS" x="18.5" y="80" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="18.5" y="80" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D" x="18.5" y="80" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="NAME" x="18.5" y="81" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="18.5" y="81" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="D18" library="SamacSys_Parts" package="SODFL2512X90N" value="1N4148WS" x="37.5" y="81" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="1N4148WS" x="37.5" y="79" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1n4148ws/on-semiconductor?region=europe" x="37.5" y="79" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS" x="37.5" y="79" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="37.5" y="79" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="37.5" y="79" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4148WS" x="37.5" y="79" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="37.5" y="79" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D" x="37.5" y="79" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="NAME" x="37.5" y="81" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="37.5" y="81" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="D19" library="SamacSys_Parts" package="SODFL2512X90N" value="1N4148WS" x="56.5" y="81" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="1N4148WS" x="56.5" y="78" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1n4148ws/on-semiconductor?region=europe" x="56.5" y="78" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS" x="56.5" y="78" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="56.5" y="78" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="56.5" y="78" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4148WS" x="56.5" y="78" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="56.5" y="78" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D" x="56.5" y="78" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="NAME" x="56.5" y="81" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="56.5" y="81" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="D20" library="SamacSys_Parts" package="SODFL2512X90N" value="1N4148WS" x="75.5" y="81" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="1N4148WS" x="75.5" y="77" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/1n4148ws/on-semiconductor?region=europe" x="75.5" y="77" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="ON Semiconductor Switching Diode, 300mA 75V, 2-Pin SOD-323 1N4148WS" x="75.5" y="77" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="75.5" y="77" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="onsemi" x="75.5" y="77" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1N4148WS" x="75.5" y="77" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="512-1N4148WS" x="75.5" y="77" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/1N4148WS?qs=2%2FYqgE%252BHg%252BKBrKZlAsMLhw%3D%3D" x="75.5" y="77" size="1" layer="27" font="vector" ratio="18" rot="R90" display="off"/>
+<attribute name="NAME" x="75.5" y="81" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="75.5" y="81" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+</elements>
+<signals>
+<signal name="N$1">
+<via x="19.5" y="19.5" extent="1-16" drill="3.1"/>
+</signal>
+<signal name="N$2">
+<via x="57.5" y="19.5" extent="1-16" drill="3.1"/>
+</signal>
+<signal name="N$3">
+<via x="19.5" y="76.5" extent="1-16" drill="3.1"/>
+</signal>
+<signal name="N$4">
+<via x="57.5" y="76.5" extent="1-16" drill="3.1"/>
+</signal>
+<signal name="COL1">
+<contactref element="S1" pad="1"/>
+<contactref element="S5" pad="1"/>
+<contactref element="S9" pad="1"/>
+<contactref element="S13" pad="1"/>
+<contactref element="S17" pad="1"/>
+<wire x1="10" y1="61" x2="10" y2="80" width="0" layer="19" extent="1-1"/>
+<wire x1="10" y1="42" x2="10" y2="61" width="0" layer="19" extent="1-1"/>
+<wire x1="10" y1="23" x2="10" y2="42" width="0" layer="19" extent="1-1"/>
+<wire x1="10" y1="4" x2="10" y2="23" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="COL2">
+<contactref element="S2" pad="1"/>
+<contactref element="S6" pad="1"/>
+<contactref element="S10" pad="1"/>
+<contactref element="S14" pad="1"/>
+<contactref element="S18" pad="1"/>
+<wire x1="29" y1="61" x2="29" y2="80" width="0" layer="19" extent="1-1"/>
+<wire x1="29" y1="42" x2="29" y2="61" width="0" layer="19" extent="1-1"/>
+<wire x1="29" y1="23" x2="29" y2="42" width="0" layer="19" extent="1-1"/>
+<wire x1="29" y1="4" x2="29" y2="23" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="COL3">
+<contactref element="S3" pad="1"/>
+<contactref element="S19" pad="1"/>
+<contactref element="S15" pad="1"/>
+<contactref element="S11" pad="1"/>
+<contactref element="S7" pad="1"/>
+<wire x1="48" y1="61" x2="48" y2="80" width="0" layer="19" extent="1-1"/>
+<wire x1="48" y1="42" x2="48" y2="61" width="0" layer="19" extent="1-1"/>
+<wire x1="48" y1="23" x2="48" y2="42" width="0" layer="19" extent="1-1"/>
+<wire x1="48" y1="4" x2="48" y2="23" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$5">
+<contactref element="S1" pad="2"/>
+<contactref element="D1" pad="2"/>
+<wire x1="15" y1="6.1" x2="18.5" y2="6.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ROW1">
+<contactref element="D1" pad="1"/>
+<contactref element="D2" pad="1"/>
+<contactref element="D3" pad="1"/>
+<contactref element="D4" pad="1"/>
+<wire x1="56.5" y1="3.85" x2="75.5" y2="3.85" width="0" layer="19" extent="1-1"/>
+<wire x1="37.5" y1="3.85" x2="56.5" y2="3.85" width="0" layer="19" extent="1-1"/>
+<wire x1="18.5" y1="3.85" x2="37.5" y2="3.85" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$6">
+<contactref element="D2" pad="2"/>
+<contactref element="S2" pad="2"/>
+<wire x1="34" y1="6.1" x2="37.5" y2="6.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$7">
+<contactref element="D3" pad="2"/>
+<contactref element="S3" pad="2"/>
+<wire x1="53" y1="6.1" x2="56.5" y2="6.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
+<contactref element="D4" pad="2"/>
+<contactref element="S4" pad="2"/>
+<wire x1="72" y1="6.1" x2="75.5" y2="6.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$9">
+<contactref element="D5" pad="2"/>
+<contactref element="S5" pad="2"/>
+<wire x1="15" y1="25.1" x2="18.5" y2="24.65" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$10">
+<contactref element="D6" pad="2"/>
+<contactref element="S6" pad="2"/>
+<wire x1="34" y1="25.1" x2="37.5" y2="25.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$11">
+<contactref element="D7" pad="2"/>
+<contactref element="S7" pad="2"/>
+<wire x1="53" y1="25.1" x2="56.5" y2="25.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="D8" pad="2"/>
+<contactref element="S8" pad="2"/>
+<wire x1="72" y1="25.1" x2="75.5" y2="25.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$13">
+<contactref element="D9" pad="2"/>
+<contactref element="S9" pad="2"/>
+<wire x1="15" y1="44.1" x2="18.5" y2="44.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$14">
+<contactref element="D10" pad="2"/>
+<contactref element="S10" pad="2"/>
+<wire x1="34" y1="44.1" x2="37.5" y2="44.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$15">
+<contactref element="D11" pad="2"/>
+<contactref element="S11" pad="2"/>
+<wire x1="53" y1="44.1" x2="56.5" y2="44.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$16">
+<contactref element="D12" pad="2"/>
+<contactref element="S12" pad="2"/>
+<wire x1="72" y1="44.1" x2="75.5" y2="44.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$17">
+<contactref element="D13" pad="2"/>
+<contactref element="S13" pad="2"/>
+<wire x1="15" y1="63.1" x2="18.5" y2="63.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$18">
+<contactref element="D14" pad="2"/>
+<contactref element="S14" pad="2"/>
+<wire x1="34" y1="63.1" x2="37.5" y2="63.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$19">
+<contactref element="D15" pad="2"/>
+<contactref element="S15" pad="2"/>
+<wire x1="53" y1="63.1" x2="56.5" y2="63.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$20">
+<contactref element="D16" pad="2"/>
+<contactref element="S16" pad="2"/>
+<wire x1="72" y1="63.1" x2="75.5" y2="63.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$21">
+<contactref element="D17" pad="2"/>
+<contactref element="S17" pad="2"/>
+<wire x1="15" y1="82.1" x2="18.5" y2="82.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$22">
+<contactref element="D18" pad="2"/>
+<contactref element="S18" pad="2"/>
+<wire x1="34" y1="82.1" x2="37.5" y2="82.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$24">
+<contactref element="D20" pad="2"/>
+<contactref element="S20" pad="2"/>
+<wire x1="72" y1="82.1" x2="75.5" y2="82.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ROW2">
+<contactref element="D5" pad="1"/>
+<contactref element="D6" pad="1"/>
+<contactref element="D7" pad="1"/>
+<contactref element="D8" pad="1"/>
+<wire x1="56.5" y1="22.85" x2="75.5" y2="22.85" width="0" layer="19" extent="1-1"/>
+<wire x1="37.5" y1="22.85" x2="56.5" y2="22.85" width="0" layer="19" extent="1-1"/>
+<wire x1="18.5" y1="22.35" x2="37.5" y2="22.85" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ROW3">
+<contactref element="D9" pad="1"/>
+<contactref element="D10" pad="1"/>
+<contactref element="D11" pad="1"/>
+<contactref element="D12" pad="1"/>
+<wire x1="56.5" y1="41.85" x2="75.5" y2="41.85" width="0" layer="19" extent="1-1"/>
+<wire x1="37.5" y1="41.85" x2="56.5" y2="41.85" width="0" layer="19" extent="1-1"/>
+<wire x1="18.5" y1="41.85" x2="37.5" y2="41.85" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ROW4">
+<contactref element="D13" pad="1"/>
+<contactref element="D14" pad="1"/>
+<contactref element="D15" pad="1"/>
+<contactref element="D16" pad="1"/>
+<wire x1="56.5" y1="60.85" x2="75.5" y2="60.85" width="0" layer="19" extent="1-1"/>
+<wire x1="37.5" y1="60.85" x2="56.5" y2="60.85" width="0" layer="19" extent="1-1"/>
+<wire x1="18.5" y1="60.85" x2="37.5" y2="60.85" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ROW5">
+<contactref element="D17" pad="1"/>
+<contactref element="D18" pad="1"/>
+<contactref element="D19" pad="1"/>
+<contactref element="D20" pad="1"/>
+<wire x1="56.5" y1="79.85" x2="75.5" y2="79.85" width="0" layer="19" extent="1-1"/>
+<wire x1="37.5" y1="79.85" x2="56.5" y2="79.85" width="0" layer="19" extent="1-1"/>
+<wire x1="18.5" y1="79.85" x2="37.5" y2="79.85" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="COL4">
+<contactref element="S4" pad="1"/>
+<contactref element="S8" pad="1"/>
+<contactref element="S12" pad="1"/>
+<contactref element="S16" pad="1"/>
+<contactref element="S20" pad="1"/>
+<wire x1="67" y1="61" x2="67" y2="80" width="0" layer="19" extent="1-1"/>
+<wire x1="67" y1="42" x2="67" y2="61" width="0" layer="19" extent="1-1"/>
+<wire x1="67" y1="23" x2="67" y2="42" width="0" layer="19" extent="1-1"/>
+<wire x1="67" y1="4" x2="67" y2="23" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$25">
+<contactref element="S19" pad="2"/>
+<contactref element="D19" pad="2"/>
+<wire x1="53" y1="82.1" x2="56.5" y2="82.15" width="0" layer="19" extent="1-1"/>
+</signal>
+</signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
+</board>
+</drawing>
+</eagle>
