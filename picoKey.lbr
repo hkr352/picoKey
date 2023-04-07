@@ -1210,6 +1210,16 @@ SO</text>
 <circle x="-43.18" y="1.27" radius="1" width="2.032" layer="42"/>
 <pad name="P$2" x="-43.18" y="1.27" drill="2.5" diameter="3.2"/>
 </package>
+<package name="STABILIZER">
+<hole x="-11.9" y="-8.24" drill="4"/>
+<hole x="11.9" y="-8.24" drill="4"/>
+<wire x1="-11.9" y1="7" x2="11.9" y2="7" width="0.25" layer="21" style="shortdash"/>
+<wire x1="11.9" y1="7" x2="11.9" y2="-8.24" width="0.25" layer="21" style="shortdash"/>
+<wire x1="11.9" y1="-8.24" x2="-11.9" y2="-8.24" width="0.25" layer="21" style="shortdash"/>
+<wire x1="-11.9" y1="-8.24" x2="-11.9" y2="7" width="0.25" layer="21" style="shortdash"/>
+<hole x="11.9" y="7" drill="3.05"/>
+<hole x="-11.9" y="7" drill="3.05"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RASPBERRYPI_PICO_RPI_PICO_IG">
